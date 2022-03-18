@@ -33,8 +33,8 @@ code == "happy" ? alert ("La vida es corta bro") : code == "sad" ? alert("Go for
 level = prompt("Ingresa tu nivel prro");
 level < 0 ? alert ("Wey, ni te topo") : level >= 0 && level <= 10 ? alert("Ah prro! Eres un paladin") : level > 10 && level <= 30 ? alert ("Arre mi golden KNGITH") : level > 30 && level <= 50 ? alert("Eres un GOD") : alert("Nah, ese pedo ni existe");
 
-Jugador1 = prompt("Ingresa tu jugada prro 1!");
-Jugador2 = prompt("Ingresa tu jugada prro 2!");
+var Jugador1 = prompt("Ingresa tu jugada prro 1!");
+var Jugador2 = prompt("Ingresa tu jugada prro 2!");
 switch (Jugador1){
     case "piedra" :
         Jugador2 == "piedra" ? alert(`WOW! Empataron con ${Jugador1}`) : Jugador2 == "tijera" ? alert(`Ganó el jugador 1 con ${Jugador1}`) : Jugador2 == "papel" ? alert(`Gana el jugador 2 con ${Jugador2}`) : alert("Alguien hixo trampa!");
@@ -48,4 +48,11 @@ switch (Jugador1){
     default : alert("Epa epa, eso no vale!");
 }
 
-x = prompt("Ingresa un número:")
+var x = prompt("Ingresa un número:");
+var y = prompt("Ingresa un número:");
+var z = prompt("Ingresa un número:");
+var num1 = parseInt(x);
+var num2 = parseInt(y);
+var num3 = parseInt(z);
+numMax = Math.max(num1, num2, num3);
+alert(`El número máximo es el ${numMax}!`);

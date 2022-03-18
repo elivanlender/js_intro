@@ -27,9 +27,9 @@ const elias = {
         Películas: "Thrillers",
     }
 }
-console.log (elias);
-
-const calificaciones = [9,2,4,8,10,8,9,7,6,5,7,6,4];
+console.log (elias.hobbies);
+{
+let calificaciones = [9,2,4,8,10,8,9,7,6,5,7,6,4];
 var min = calificaciones[0];
 var max = calificaciones[0];
 var acc = 0;
@@ -48,8 +48,9 @@ console.log (acc);
 console.log (`El número menor es ${min}`);
 console.log (`El número mayor es ${max}`);
 console.log (`El promedio es ${prom}`);
+}
 
-const calificaciones = [9,2,4,8,10,8,9,7,6,5,7,6,4];
+let calificaciones = [9,2,4,8,10,8,9,7,6,5,7,6,4];
 var min = calificaciones[0];
 var max = calificaciones[0];
 var acc = 0;
